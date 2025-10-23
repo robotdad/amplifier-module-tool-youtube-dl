@@ -25,7 +25,7 @@ dev = [
 "tool-youtube-dl" = "amplifier_module_tool_youtube_dl:YouTubeDLTool"
 
 [tool.uv.sources]
-amplifier-core = { path = "../amplifier-core", editable = true }
+amplifier-core = { git = "https://github.com/microsoft/amplifier-dev", subdirectory = "amplifier-core", branch = "main" }
 
 [build-system]
 requires = ["hatchling"]
